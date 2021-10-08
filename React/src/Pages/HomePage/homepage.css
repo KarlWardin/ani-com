@@ -1,0 +1,16 @@
+.homeContainer{
+    
+    display: flex;
+}
+.leftHomeContainer{
+    flex: 8;
+}
+.rightHomeContainer{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    position: sticky;
+    top: 60px;
+    height: calc(100vh - 60px);
+}

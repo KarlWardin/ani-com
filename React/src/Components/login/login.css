@@ -1,0 +1,49 @@
+.loginContainer{
+    padding: 40px;
+}
+.loginWrapper{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 31px 3px rgba(115,113,113,0.54);
+    -webkit-box-shadow: 5px 5px 31px 3px rgba(115,113,113,0.54);
+    -moz-box-shadow: 5px 5px 31px 3px rgba(115,113,113,0.54);
+    padding: 10px;
+    border-radius: 10px;
+}
+.loginButtonType{
+    display: flex;
+    justify-content: center;
+}
+.loginButtonTypeSignin{
+    border-radius: 30px 0 0 30px;
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+.loginButtonTypeSignup{
+    border-radius: 0 30px 30px 0;
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+.loginButtonTypeSignin:hover{
+    background-color: teal;
+}
+.loginButtonTypeSignup:hover{
+    background-color: teal;
+}
+.loginForm{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.clicked{
+    background-color: black;
+}

@@ -1,0 +1,15 @@
+.commentContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 4px;
+}
+.commentPoster{
+  color: blue;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.commentText{
+  border-radius: 4px;
+}

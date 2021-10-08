@@ -1,0 +1,70 @@
+.postContainer{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.postWrapper{
+    min-height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 31px 3px rgba(115,113,113,0.54);
+    -webkit-box-shadow: 5px 5px 31px 3px rgba(115,113,113,0.54);
+    -moz-box-shadow: 5px 5px 31px 3px rgba(115,113,113,0.54);
+    display: flex;
+}
+.postLeft{
+    flex: 66;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.postPoster{
+    display: flex;
+}
+.poster{
+    font-weight: bold;
+    cursor: pointer;
+}
+.followButton{
+    margin-left: auto;
+    cursor: pointer;
+}
+.postImage{
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 500px;
+}
+.postLikes{
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+}
+.likeButton{
+    cursor: pointer;
+}
+.postRight{
+    flex: 34;
+    display: flex;
+    flex-direction: column;
+}
+.comments{
+
+}
+.newComment{
+    
+    display: flex;
+    margin: 4px;
+    margin-top: auto;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+.commentInput{
+    flex: 1;
+    margin: 4px;
+    border: none;
+}
+.commentInput:focus {
+    outline: none;
+}
+.commentButton{
+    cursor: pointer;
+}

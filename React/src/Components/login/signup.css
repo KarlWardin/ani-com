@@ -1,0 +1,22 @@
+.signupContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    font-weight: bold;
+}
+.signupForm{
+    background-color: gainsboro;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+label{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    min-width: 60%;
+    font-size: x-large;
+}
